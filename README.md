@@ -4,12 +4,12 @@
 
 # README #
 
-Revive AdServer docker image based on Alpine Linux with nginx, php7-fpm and Revive adserver 5.0.5
+Revive AdServer docker image based on Alpine Linux with nginx, php7-fpm and Revive adserver 5.3.1
 
 ### What is this repository for? ###
 
 * Quick summary:
-    Revive AdServer docker image based on Alpine Linux with nginx, php7-fpm and Revive Ad Server 5.0.5
+    Revive AdServer docker image based on Alpine Linux with nginx, php7-fpm and Revive Ad Server 5.3.1
 
 * Version 5.0.5
 * [Repository Link](https://github.com/dustin-hawkins/ReviveDockerImage.git)
@@ -29,7 +29,7 @@ version: '3.3'
 services:
     revive:
         build: .
-        image: dustinhawkins/revive
+        image: ale-rinaldi/revive
         container_name: revive
         ports:
          - '8080:80'
